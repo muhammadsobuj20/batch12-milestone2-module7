@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flexbox & flex direction</title>
+    <style>
+        .container{
+            border: 2px solid blue;
+            display: flex;
+            height: 700px;
+            /* justify-content: space-around; */
+            justify-content: center;
+            /* justify-content: end; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            /* justify-items: center; */
+            align-items: center;
+            gap: 20px;
+            
+        }
+
+        .box{
+            border: 5px solid red; 
+            width: 200px;
+            height: 200px;
+            text-align: center;
+           
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
 </body>
 </html>
