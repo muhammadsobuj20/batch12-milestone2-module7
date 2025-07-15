@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height:90vh;
+        border: 3px solid rebeccapurple;
+    
+      }
+      .login-form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 70%;
+      }
+
+      .login-form > input {
+        padding: 29px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="container">
+      <form class="login-form">
+        <h2>This is Login form</h2>
+        <input type="email" name="" id="" placeholder="Your email" required />
+        <input
+          type="password"
+          name=""
+          id=""
+          placeholder="Your Password"
+          required
+        />
+        <input type="submit" value="Login" />
+      </form>
+    </div>
+  </body>
+</html>
