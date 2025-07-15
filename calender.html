@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calender</title>
+
+    <style>
+      section {
+        text-align: center;
+        margin: 0 auto;
+      }
+
+      section > h2 {
+        font-size: 3em;
+        color: red;
+        font-weight: 800;
+        text-decoration: underline;
+      }
+
+      .wrapper-calender {
+        width: 1080px;
+        height: 500px;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 20px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        /* border: 5px dotted rgb(221, 4, 4); */
+        padding: 12px;
+      }
+
+      .date {
+        background-color: rgba(7, 7, 7, 0.151);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+        border-radius: 12px;
+        font-size: 25px;
+        font-weight: 700;
+      }
+
+       .date:nth-child(2n+1){
+           background-color: rgba(160, 167, 165, 0.76);
+       }
+
+      .days {
+        background-color: coral;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        border-radius: 12px;
+        font-weight: 700;
+        font-size: 20px;
+      }
+
+         .days:nth-child(2n+1){
+           background-color: rgba(189, 83, 22, 0.801);
+         }
+
+      .date-red {
+        background-color: rgb(224, 3, 3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+        border-radius: 12px;
+        font-size: 32px;
+        font-weight: 700;
+        color: #fff;
+      }
+      small{
+        font-size: 15px;
+        font-weight: 200;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h2>AUGUST</h2>
+      <div class="wrapper-calender">
+        <div class="days">S</div>
+        <div class="days">M</div>
+        <div class="days">T</div>
+        <div class="days">W</div>
+        <div class="days">TH</div>
+        <div class="days">F</div>
+        <div class="days">S</div>
+        <div class="date">28</div>
+        <div class="date">29</div>
+        <div class="date">30</div>
+        <div class="date">04</div>
+        <div class="date-red"><br>05<small>victory 2.0</small></div>
+        <div class="date">06</div>
+        <div class="date">07</div>
+        <div class="date">08</div>
+        <div class="date">09</div>
+        <div class="date">10</div>
+        <div class="date">11</div>
+        <div class="date">12</div>
+        <div class="date">13</div>
+        <div class="date">14</div>
+        <div class="date">15</div>
+        <div class="date">16</div>
+        <div class="date">17</div>
+        <div class="date">18</div>
+        <div class="date">19</div>
+        <div class="date">20</div>
+        <div class="date">21</div>
+        <div class="date">22</div>
+        <div class="date">23</div>
+        <div class="date">24</div>
+        <div class="date">25</div>
+        <div class="date">26</div>
+        <div class="date">27</div>
+        <div class="date">28</div>
+        <div class="date">29</div>
+        <div class="date">30</div>
+        <div class="date">31</div>
+        <div class="date">01</div>
+        <div class="date">02</div>
+        <div class="date">03</div>
+      </div>
+    </section>
+  </body>
+</html>
