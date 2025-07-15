@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+
+
+    <style>
+
+        body{
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+.container{
+ /* width:1180px; */
+ border: 2px solid fuchsia;
+ display: grid;
+ grid-template-columns: 400px auto;
+ gap: 10px;
+}
+
+.left{
+  border: 2px solid rgb(0, 255, 191);
+ height: 500px;
+ background-color: aquamarine;
+}
+
+.right{
+ border: 2px solid rgb(0, 81, 255);
+ height: 500px;
+  background-color: rgb(95, 15, 185);
+}
+     
+
+@media screen and (max-width:576px){
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+.img-container{
+/* display: flex;
+justify-content: space-around; */
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+gap: 40px;
+}
+
+.content-img{
+ padding: 30px;
+ width: 100%;
+}
+
+.img-container img{
+    border-radius: 14px;
+   margin-top: 15px;
+}
+
+
+@media screen and(max-width:576px)  {
+    .img-container{
+        grid-template-columns: repeat( 1, 1fr);
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">Left</div>
+        <div class="right">Right</div>
+    </div>
+
+
+    <div class="img-container">
+        <div class="content-img">
+            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quisquam laudantium et harum eius mollitia ex consequatur similique delectus perspiciatis nisi iste quae qui voluptates. Laudantium obcaecati placeat facilis quaerat eos odit architecto, minus consequuntur deserunt esse blanditiis ipsa porro totam culpa dolorum rerum delectus perferendis incidunt fugiat quidem illum quo pariatur quibusdam aperiam! Pariatur, quidem sapiente quisquam quam quibusdam similique hic eveniet facere fugit magni veniam provident tempore quasi illo aliquid tempora consequatur earum sunt nemo at? Deserunt doloribus iste est, eveniet ipsa nemo similique expedita cumque, rerum debitis quae tenetur nobis perspiciatis eius quia pariatur placeat corporis nam. Commodi architecto unde dolorum accusamus. Veritatis dolorum eos mollitia quasi dicta impedit nemo iste quod, saepe quibusdam adipisci cum recusandae deleniti amet? Soluta quas deserunt autem praesentium deleniti, ratione in numquam provident omnis dolor dicta libero, culpa dignissimos suscipit. Totam accusamus architecto autem sequi recusandae temporibus sed consequuntur praesentium impedit.</p>
+        </div>
+        <img src="./assets/images/learnig.jpg" alt="">
+    </div>
+
+
+    <div class="img-container">
+         <img src="./assets/images/learnig.jpg" alt="">
+        <div class="content-img">
+            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quisquam laudantium et harum eius mollitia ex consequatur similique delectus perspiciatis nisi iste quae qui voluptates. Laudantium obcaecati placeat facilis quaerat eos odit architecto, minus consequuntur deserunt esse blanditiis ipsa porro totam culpa dolorum rerum delectus perferendis incidunt fugiat quidem illum quo pariatur quibusdam aperiam! Pariatur, quidem sapiente quisquam quam quibusdam similique hic eveniet facere fugit magni veniam provident tempore quasi illo aliquid tempora consequatur earum sunt nemo at? Deserunt doloribus iste est, eveniet ipsa nemo similique expedita cumque, rerum debitis quae tenetur nobis perspiciatis eius quia pariatur placeat corporis nam. Commodi architecto unde dolorum accusamus. Veritatis dolorum eos mollitia quasi dicta impedit nemo iste quod, saepe quibusdam adipisci cum recusandae deleniti amet? Soluta quas deserunt autem praesentium deleniti, ratione in numquam provident omnis dolor dicta libero, culpa dignissimos suscipit. Totam accusamus architecto autem sequi recusandae temporibus sed consequuntur praesentium impedit.</p>
+        </div>
+       
+    </div>
+</body>
+</html>
