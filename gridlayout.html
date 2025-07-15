@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout</title>
+
+    <style>
+        .container{
+           display: grid;
+           grid-template-columns: repeat(4, 1fr);
+           gap: 20px;
+
+        }
+
+
+        .car{
+            border-radius: 12px;
+            margin-top: 10px;
+        }
+        .car img{
+            width: 100%;
+             border-radius: 12px;
+        }
+
+     .grid-container{
+        display: grid;
+        grid-template-columns: repeat(3,  5fr);
+        grid-template-rows: 120px 60px auto;
+       /* grid-template-columns: repeat(2fr, 3fr, 1fr); */
+     }
+     .items{
+        border: 2px solid blue;
+
+     }
+
+
+       @media screen and (max-width: 576px){
+        .container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+       }
+       @media screen and (min-width: 768px){
+        .container{
+            grid-template-columns: repeat(2, 1fr);
+        }
+       }
+
+
+        
+       
+    </style>
+</head>
+<body> 
+
+    <!-- .container>.car*15>img[src="./assets/images/car2.jpg"]+h3{car items -$}+p{price:/$$00}+plorem20^btn{BUY NOW} -->
+      <div class="container">
+        <div class="car">
+            <img src="./assets/images/car2.jpg" alt="">
+            <h3>car items -1</h3>
+            <p>price:/0100</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae excepturi sit sequi molestiae delectus iure in voluptate! Neque, quaerat aspernatur!</p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="car">
+            <img src="./assets/images/car2.jpg" alt="">
+            <h3>car items -1</h3>
+            <p>price:/0100</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae excepturi sit sequi molestiae delectus iure in voluptate! Neque, quaerat aspernatur!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae excepturi sit sequi molestiae delectus iure in voluptate! Neque, quaerat aspernatur!</p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="car">
+            <img src="./assets/images/car2.jpg" alt="">
+            <h3>car items -2</h3>
+            <p>price:/0200</p>
+            <p>Nesciunt ut adipisci possimus tempora sequi atque, ipsum ratione, fugit modi nostrum non, laboriosam porro natus officia optio ex soluta.</p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="car">
+            <img src="./assets/images/car2.jpg" alt="">
+            <h3>car items -3</h3>
+            <p>price:/0300</p>
+            <p>Beatae exercitationem, incidunt excepturi distinctio cupiditate soluta, vitae unde veritatis a numquam veniam, voluptas optio perferendis et aspernatur assumenda nemo?</p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="car">
+            <img src="./assets/images/car2.jpg" alt="">
+            <h3>car items -4</h3>
+            <p>price:/0400</p>
+            <p>Fugiat incidunt enim blanditiis nulla repellendus, mollitia doloribus aperiam, voluptate fugit error consequatur tempora inventore! Beatae hic numquam adipisci error!</p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="car">
+            <img src="./assets/images/car2.jpg" alt="">
+            <h3>car items -5</h3>
+            <p>price:/0500</p>
+            <p>Perferendis, minus autem error nesciunt sit enim vel molestias delectus quod cupiditate voluptates facilis magni aliquam provident! Natus, laboriosam facilis?</p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="car">
+            <img src="./assets/images/car2.jpg" alt="">
+            <h3>car items -6</h3>
+            <p>price:/0600</p>
+            <p>Omnis culpa, eos placeat cumque praesentium voluptates ratione similique, consequatur temporibus doloribus, ut accusantium laborum et nesciunt impedit reprehenderit ducimus?</p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="car">
+            <img src="./assets/images/car2.jpg" alt="">
+            <h3>car items -7</h3>
+            <p>price:/0700</p>
+            <p>Sequi nihil excepturi error quas fugiat. Molestiae animi ut rem, labore quidem tempora, fugiat totam hic reiciendis sapiente error quos.</p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="car">
+            <img src="./assets/images/car2.jpg" alt="">
+            <h3>car items -8</h3>
+            <p>price:/0800</p>
+            <p>Obcaecati dignissimos fugit debitis accusamus, est doloremque corrupti ipsam? Dicta maxime nulla rem voluptate nam recusandae perspiciatis ea saepe in!</p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="car">
+            <img src="./assets/images/car2.jpg" alt="">
+            <h3>car items -9</h3>
+            <p>price:/0900</p>
+            <p>Optio quo magnam numquam excepturi voluptas omnis esse, cum quod labore debitis, reiciendis illo distinctio iure odio sint minima dignissimos?</p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="car">
+            <img src="./assets/images/car2.jpg" alt="">
+            <h3>car items -10</h3>
+            <p>price:/1000</p>
+            <p>Impedit eos expedita unde eaque nostrum nobis beatae, eligendi quaerat neque incidunt veniam sit laboriosam voluptas officiis vel sapiente sunt!</p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="car">
+            <img src="./assets/images/car2.jpg" alt="">
+            <h3>car items -11</h3>
+            <p>price:/1100</p>
+            <p>Non itaque placeat nostrum fuga quod recusandae aut at ab animi, dolore quidem, eaque, temporibus laudantium doloribus omnis iste exercitationem!</p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="car">
+            <img src="./assets/images/car2.jpg" alt="">
+            <h3>car items -12</h3>
+            <p>price:/1200</p>
+            <p>Qui earum est dolores quae voluptatum dicta praesentium perferendis sit! Inventore possimus illo tempora earum, animi dicta aut minus architecto.</p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="car">
+            <img src="./assets/images/car2.jpg" alt="">
+            <h3>car items -13</h3>
+            <p>price:/1300</p>
+            <p>Sed, modi? Est illum ratione cum dolor molestias quas! Voluptates quo qui, cupiditate in vitae molestias corrupti corporis reprehenderit omnis.</p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="car">
+            <img src="./assets/images/car2.jpg" alt="">
+            <h3>car items -14</h3>
+            <p>price:/1400</p>
+            <p>Reprehenderit sequi magni, ab vero impedit itaque maxime repudiandae dolorem doloremque harum eum, facere odit voluptas! Placeat necessitatibus amet repellendus.</p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="car">
+            <img src="./assets/images/car2.jpg" alt="">
+            <h3>car items -15</h3>
+            <p>price:/1500</p>
+            <p>Harum, odit deserunt. Optio est odit eveniet autem esse nobis temporibus reiciendis, aperiam amet quaerat nihil fuga quas voluptate. Obcaecati.</p>
+            <button>BUY NOW</button>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="items">item-1</div>
+        <div class="items">item-2</div>
+        <div class="items">item-3</div>
+        <div class="items">item-4</div>
+        <div class="items">item-5</div>
+        <div class="items">item-6</div>
+        <div class="items">item-7</div>
+        <div class="items">item-8</div>
+        <div class="items">item-9</div>
+        <div class="items">item-10</div>
+        <div class="items">item-11</div>
+        <div class="items">item-12</div>
+        <div class="items">item-13</div>
+        <div class="items">item-14</div>
+        <div class="items">item-15</div>
+        <div class="items">item-16</div>
+        <div class="items">item-17</div>
+        <div class="items">item-18</div>
+        <div class="items">item-19</div>
+        <div class="items">item-20</div>
+      </div>
+</body>
+</html>
